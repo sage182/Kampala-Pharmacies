@@ -4,12 +4,12 @@ A responsive pharmacy storefront demo for Kampala, Uganda. The project showcases
 
 ## Features
 
-- Product search and category filtering
-- Add-to-basket shopping flow
-- Quantity updates and removal from cart
-- Demo customer order form
-- Simulated order status tracking
-- Mobile-friendly responsive layout
+- Product search and category filtering.
+- Add-to-basket shopping flow.
+- Quantity updates and removal from cart.
+- Demo customer order form.
+- Simulated order status tracking.
+- Mobile-friendly responsive layout.
 
 ## Tech Stack
 
