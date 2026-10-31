@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="title">
+  <title id="title">Wellness product illustration</title>
+  <rect width="480" height="320" rx="24" fill="#e7f7f2"/>
+  <circle cx="240" cy="150" r="92" fill="#fff"/>
+  <rect x="207" y="93" width="66" height="120" rx="12" fill="#087d6a"/>
+  <rect x="220" y="76" width="40" height="24" rx="5" fill="#075b50"/>
+  <rect x="213" y="134" width="54" height="38" rx="4" fill="#fff"/>
+  <path d="M236 141h8v9h9v8h-9v9h-8v-9h-9v-8h9z" fill="#087d6a"/>
+  <text x="240" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#075b50">Kampala Wellness</text>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "name": "kampala-pharmacies",
+  "version": "1.0.0",
+  "description": "Kampala Pharmacy & Wellness Store demo storefront",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pharmacy",
+    "ecommerce",
+    "static-site",
+    "uganda",
+    "railway"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

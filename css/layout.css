@@ -1,0 +1,22 @@
+/* Header, navigation, hero, feature layout, and small-screen adaptations. */
+header { background: #087d6a; color: white; padding: 14px 5%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand h1 { font-size: 21px; margin: 0; }
+.brand small { display: block; }
+.logo { font-size: 34px; background: white; color: #087d6a; border-radius: 12px; padding: 0 10px; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+.hero { background: #e7f7f2; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 55px 7%; }
+.hero h2 { font-size: 36px; margin-bottom: 8px; color: #075b50; }
+.hero img { width: 40%; max-width: 390px; }
+.features { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+.features article { flex: 1; min-width: 180px; background: #f1f8f6; padding: 18px; border-radius: 8px; }
+@media (max-width: 650px) {
+  header { justify-content: center; text-align: center; }
+  nav { justify-content: center; gap: 11px; font-size: 14px; }
+  .hero { flex-direction: column; text-align: center; padding: 35px 7%; }
+  .hero h2 { font-size: 29px; }
+  .hero img { width: 85%; }
+  .section { padding: 30px 6%; }
+}

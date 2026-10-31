@@ -1,0 +1,9 @@
+/* Global box model, typography, section spacing, and footer colors. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Arial, sans-serif; color: #243b38; line-height: 1.55; background: #fff; }
+.section { padding: 45px 7%; max-width: 1250px; margin: auto; }
+.section h2 { color: #086e5f; }
+.pale { background: #f1f8f6; max-width: none; }
+footer { background: #064b43; color: white; text-align: center; padding: 28px 6%; }
+footer h2 { color: white; }
