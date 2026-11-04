@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title">
   <title id="title">Kampala pharmacy illustration</title>
-  <rect width="640" height="440" rx="28" fill="#d5eee6"/>
+  <rect width="640" height="440" rx="28" fill="#F8F6EE"/>
   <rect x="80" y="110" width="480" height="270" rx="18" fill="#fff"/>
-  <path d="M80 160h480v32H80z" fill="#087d6a"/>
-  <path d="M110 220h120v130H110zM260 220h120v130H260zM410 220h120v130H410z" fill="#e7f7f2"/>
-  <path d="M163 250h14v22h22v14h-22v22h-14v-22h-22v-14h22zM313 250h14v22h22v14h-22v22h-14v-22h-22v-14h22zM463 250h14v22h22v14h-22v22h-14v-22h-22v-14h22z" fill="#087d6a"/>
-  <path d="M240 110V70h160v40" fill="#075b50"/>
-  <text x="320" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#fff">KAMPALA PHARMACY</text>
+  <path d="M80 160h480v32H80z" fill="#4D3A4D"/>
+  <path d="M110 220h120v130H110zM260 220h120v130H260zM410 220h120v130H410z" fill="#F1E8E1"/>
+  <path d="M163 250h14v22h22v14h-22v22h-14v-22h-22v-14h22zM313 250h14v22h22v14h-22v22h-14v-22h-22v-14h22zM463 250h14v22h22v14h-22v22h-14v-22h-22v-14h22z" fill="#4D3A4D"/>
+  <path d="M240 110V70h160v40" fill="#3B2D3B"/>
+  <text x="320" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#4D3A4D">KAMPALA PHARMACY</text>
 </svg>
