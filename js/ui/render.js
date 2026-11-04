@@ -21,6 +21,7 @@ function renderProducts(productList, products) {
         const image = document.createElement("img");
         image.src = product.image;
         image.alt = product.name;
+        if (product.imageFit === "cover") image.className = "cover";
 
         const name = document.createElement("h3");
         name.textContent = product.name;

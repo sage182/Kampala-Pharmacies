@@ -50,6 +50,7 @@ input, select, textarea {
   background: var(--surface-soft);
   border-radius: 8px;
 }
+.card img.cover { object-fit: cover; }
 .card h3 { margin: 9px 0 3px; color: var(--primary); }
 .card p { margin: 5px 0; }
 .price { color: var(--secondary); font-weight: bold; }

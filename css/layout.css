@@ -66,22 +66,66 @@ nav a:hover {
 .hero .button:hover {
   background: linear-gradient(135deg, #b95d3a, var(--accent));
 }
-.hero img { width: 40%; max-width: 390px; }
+.hero img {
+  width: 48%;
+  max-width: 520px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center 32%;
+  border-radius: 18px;
+}
 .features { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
 .features article {
   flex: 1;
   min-width: 180px;
-  background: rgba(255, 255, 255, 0.7);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--primary);
+  color: #fff;
   padding: 18px;
   border-radius: 10px;
-  border: 1px solid var(--line);
-  box-shadow: 0 4px 12px rgba(46, 58, 47, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 12px rgba(46, 58, 47, 0.12);
+}
+.features article::before,
+.features article::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.features article::before {
+  background-position: center;
+  background-size: cover;
+  filter: blur(3px);
+  transform: scale(1.05);
+}
+.features article::after {
+  background: rgba(20, 35, 29, 0.62);
+}
+.feature-trusted::before {
+  background-image: url("../images/WhatsApp Image 2026-11-04 at 2.38.51 PM (1).jpeg");
+}
+.feature-service::before {
+  background-image: url("../images/WhatsApp Image 2026-11-04 at 2.38.50 PM (1).jpeg");
+}
+.feature-delivery::before {
+  background-image: url("../images/WhatsApp Image 2026-11-04 at 2.38.52 PM.jpeg");
+}
+.features article b,
+.features article p {
+  position: relative;
+  z-index: 1;
+}
+.features article p {
+  color: rgba(255, 255, 255, 0.9);
 }
 @media (max-width: 650px) {
   header { justify-content: center; text-align: center; }
   nav { justify-content: center; gap: 11px; font-size: 14px; }
   .hero { flex-direction: column; text-align: center; padding: 35px 7%; }
   .hero h2 { font-size: 29px; }
-  .hero img { width: 85%; }
+  .hero img { width: 100%; max-width: 420px; height: 360px; }
   .section { padding: 30px 6%; }
 }
