@@ -10,22 +10,68 @@ header {
   gap: 15px;
   box-shadow: 0 4px 18px var(--shadow);
 }
-.brand { display: flex; align-items: center; gap: 12px; }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-mark {
+  width: 76px;
+  height: 76px;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.brand-mark-swoop {
+  fill: none;
+  stroke: var(--brand-sage);
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+.brand-mark-leaf { fill: var(--brand-sage); }
+.brand-mark-person { fill: var(--background); }
+.brand-mark-capsule {
+  fill: var(--brand-sage);
+  stroke: var(--background);
+  stroke-width: 3;
+}
+.brand-mark-capsule-seam {
+  stroke: var(--background);
+  stroke-width: 3;
+}
+.brand-copy { text-align: center; }
 .brand h1 {
-  font-size: 21px;
+  font-size: 22px;
   margin: 0;
-  color: var(--accent);
+  color: var(--background);
+  line-height: 1.15;
 }
 .brand small {
   display: block;
   color: var(--tertiary);
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.12em;
 }
-.logo {
-  font-size: 34px;
-  background: var(--background);
-  color: var(--accent);
-  border-radius: 12px;
-  padding: 0 10px;
+.brand-tagline {
+  display: block;
+  width: 100%;
+  height: 33px;
+  margin-top: 1px;
+  overflow: visible;
+}
+.brand-tagline text {
+  fill: var(--brand-sage);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.brand-tagline-line {
+  fill: none;
+  stroke: var(--brand-sage);
+  stroke-width: 1.5;
 }
 nav { display: flex; gap: 16px; flex-wrap: wrap; }
 nav a {
@@ -123,6 +169,7 @@ nav a:hover {
 }
 @media (max-width: 650px) {
   header { justify-content: center; text-align: center; }
+  .brand { justify-content: center; }
   nav { justify-content: center; gap: 11px; font-size: 14px; }
   .hero { flex-direction: column; text-align: center; padding: 35px 7%; }
   .hero h2 { font-size: 29px; }

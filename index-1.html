@@ -9,9 +9,26 @@
 <body>
   <!-- Shared site header and section navigation. -->
   <header>
-    <div class="brand">
-      <span class="logo" aria-hidden="true">✚</span>
-      <div><h1>Kampala Pharmacy</h1><small>&amp; Wellness Store</small></div>
+    <div class="brand" aria-label="Kampala Pharmacy & Wellness Store — Best Collective">
+      <svg class="brand-mark" viewBox="0 0 112 112" aria-hidden="true" focusable="false">
+        <path class="brand-mark-swoop" d="M16 72C10 50 21 28 42 19M19 76c15 20 43 27 65 12 13-9 20-23 20-39" />
+        <path class="brand-mark-leaf" d="M39 21c-12 3-17 11-16 21 11-3 17-10 16-21Zm44 66c2-12 10-18 20-17-2 11-9 17-20 17Z" />
+        <circle class="brand-mark-person" cx="66" cy="27" r="8" />
+        <path class="brand-mark-person" d="M62 39c-7 4-11 11-14 19l-8 12 9 6 11-15 8 19 10-5-9-24 13-10-5-7-17 12Z" />
+        <g transform="rotate(-32 51 67)">
+          <rect class="brand-mark-capsule" x="37" y="46" width="28" height="48" rx="14" />
+          <path class="brand-mark-capsule-seam" d="M37 70h28" />
+        </g>
+      </svg>
+      <div class="brand-copy">
+        <h1>Kampala Pharmacy</h1>
+        <small>&amp; Wellness Store</small>
+        <svg class="brand-tagline" viewBox="0 0 280 44" role="img" aria-label="Best Collective">
+          <path id="tagline-curve" d="M8 13 Q140 45 272 13" fill="none" />
+          <text><textPath href="#tagline-curve" startOffset="50%" text-anchor="middle">Best Collective</textPath></text>
+          <path class="brand-tagline-line" d="M15 27 Q140 53 265 27" />
+        </svg>
+      </div>
     </div>
     <nav aria-label="Main navigation">
       <a href="#home">Home</a>
